@@ -146,14 +146,15 @@ Based on the Growatt MOD series documentation, the 16-pin SYS COM connector uses
 Instead of using command-line tools, we'll use the ESPHome web interface for a user-friendly configuration experience.
 
 1. Open ESPHome dashboard
-2. Click **+ NEW DEVICE**
+2. Click **+ NEW DEVICE**, and follow the instructions on the screen.
 3. Enter device name: `growatt-tcan485`
 4. Select **ESP32** as device type
 5. Choose **ESP32 Dev Module** board
 
 #### Step 3: Configuration File
 
-Use the provided [`growatt-liligo-tcan485.yaml`](growatt-liligo-tcan485.yaml) configuration file. Here are the key sections explained:
+Use the provided [`growatt-liligo-tcan485.yaml`](growatt-liligo-tcan485.yaml) configuration file as an example, and copy sections over to the config esphome created.
+(Do not use API key, OTA password, and fallback WiFi key from the yaml in this repository. Esphome should have created those for you on adding a new device)
 
 #### Step 4: Upload Firmware via Web Interface
 
