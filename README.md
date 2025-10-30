@@ -1,6 +1,10 @@
-# Growatt MOD 5000TL3-X ESPHome Modbus Integration
+# Growatt ESPHome Modbus Integration
 
 A complete, tested ESPHome configuration for monitoring **Growatt MOD 5000TL3-X** solar inverters via RS485 Modbus RTU protocol, integrated with Home Assistant and/or MQTT for real-time solar energy monitoring. The setup additionally allows the user to limit the inverter power output (wattage), or turn the inverter on and off altogether. 
+
+## Tested with models:
+* MOD 5000TL3-X
+* MIN 3600TL-XE
 
 ## Table of Contents
 
